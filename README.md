@@ -30,4 +30,4 @@ $$\sum_{i}\sum{j} w_{i} w_{j} cov\left(ret_{r, i, t}, ret_{r, j, t}\right) $$
 
 is equal to,
 
-$$\sum_{i}\sum{j} w_{i} w_{j} \left( cov\left(lret_{l\left(i\right), i, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lret_{l\left(i\right), i, t}, lrete_{l\left(j\right), r, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lrete_{l\left(j\right), r, t}\right) \right)$$
+$$\sum_{i}\sum_{j} w_{i} w_{j} \left( cov\left(lret_{l\left(i\right), i, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lret_{l\left(i\right), i, t}, lrete_{l\left(j\right), r, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lrete_{l\left(j\right), r, t}\right) \right)$$
