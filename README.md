@@ -26,7 +26,7 @@ $$ lrete_{l, t, t} =  ln\left(\frac{E_{r, l, t}}{E_{r, l, t-1}}\right) $$
 
 The tracking error for the portfolio is,
 
-$$\sum_{i}\sum{j} w_{i} w_{j} cov\left(ret_{r, i, t}, ret_{r, j, t}\right) $$
+$$\sum_{i}\sum_{j} w_{i} w_{j} cov\left(ret_{r, i, t}, ret_{r, j, t}\right) $$
 
 is equal to,
 
