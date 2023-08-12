@@ -14,7 +14,7 @@ $$ ret_{r, i, t} = ln\left(\frac{P_{l, i, t}}{P_{l, i, t-1}}\frac{E_{r, l, t}}{E
 
 which means,
 
-$$ ret_{r, i, t} = lret_{l, t, t} + lrete_{l, t, t} $$
+$$ ret_{r, i, t} = lret_{l, i, t} + lrete_{l, r, t} $$
 
 where the logarithmic return of the asset in local currency is,
 
@@ -24,3 +24,10 @@ and the logarithmic return of the exchange rate is,
 
 $$ lrete_{l, t, t} =  ln\left(\frac{E_{r, l, t}}{E_{r, l, t-1}}\right) $$
 
+The tracking error for the portfolio is,
+
+$$\sum_{i}\sum{j} w_{i} w_{j} cov\left(ret_{r, i, t}, ret_{r, j, t}\right) $$
+
+is equal to,
+
+$$\sum_{i}\sum{j} w_{i} w_{j} \left( cov\left(lret_{l\left(i\right), i, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lret_{l\left(i\right), i, t}, lrete_{l\left(j\right), r, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lret_{l\left(j\right), j, t} \right) + cov\left(lrete_{l\left(i\right), r, t}, lrete_{l\left(j\right), r, t}\right) $$
